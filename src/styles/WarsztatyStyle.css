@@ -1,0 +1,39 @@
+html {
+  background: #fafbfc;
+}
+
+main {
+  height: auto;
+  width: 100%;
+}
+
+.PhotoDown {
+  width: 100%;
+  bottom: 0;
+  padding-top: 180px;
+}
+.Conteiner {
+  top: 45%;
+  left: 35%;
+  width: 30%;
+  height: 26%;
+  border-radius: 20px;
+  border: 5px solid white;
+  background: transparent;
+  display: flex;
+  position: absolute;
+}
+.BigText {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 30%;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}

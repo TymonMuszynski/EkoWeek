@@ -1,0 +1,95 @@
+.NavBar {
+  width: 100%;
+  height: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  margin-top: 3vh;
+}
+
+ul {
+  align-items: center;
+  justify-content: flex-start;
+  justify-self: flex-start;
+}
+
+.list {
+  margin-right: 3%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 2vw;
+  font-size: 2.7vh;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  height: 1.4vw;
+  font-weight: bold;
+}
+
+.tag {
+  text-decoration-line: none;
+  color: white;
+}
+.tag:hover {
+  color: #36ad5e;
+}
+
+.menuIcon {
+  display: none;
+  position: relative;
+}
+
+@media screen and (max-width: 950px) {
+  .tag {
+    color: #214722;
+  }
+  .NavBar {
+    position: absolute;
+    margin-top: 0;
+  }
+  .list {
+    color: #214722;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-size: 35px;
+    position: absolute;
+    transition: all 0.5s ease;
+    align-items: center;
+    left: -100%;
+    font-size: 1.5rem;
+    opacity: 1;
+    z-index: 1;
+    margin-top: auto;
+  }
+
+  .list.active {
+    background: white;
+    color: #214722;
+    transition: all 0.5s ease;
+    left: -2.4rem;
+    opacity: 1;
+  }
+  .icon {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+    position: absolute;
+    left: auto;
+    font-size: 2.4rem;
+    top: 35px;
+    left: 35px;
+    z-index: 1;
+  }
+  ul li {
+    margin-top: 13%;
+  }
+
+  .icon {
+    color: #214722;
+  }
+}
