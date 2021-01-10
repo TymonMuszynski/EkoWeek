@@ -5,7 +5,6 @@ import { useLocation } from "react-router-dom";
 function Video(props) {
   let location = useLocation();
   console.log(location);
-  let link = location.state.name.link;
 
   return (
     <div className="mainConteiner">
@@ -17,6 +16,7 @@ function Video(props) {
         frameBorder="0"
         allow="autoplay; encrypted-media"
         allowfullscreen
+        title="video"
       ></iframe>
     </div>
   );

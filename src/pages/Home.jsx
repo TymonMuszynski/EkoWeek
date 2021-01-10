@@ -6,8 +6,8 @@ import mainPhoto from "../assets/home_page.svg";
 import mobilePhotoUp from "../assets/home_page_mobile_up.svg";
 import mobilePhotoDown from "../assets/home_page_mobile_down.svg";
 
-import { FaInstagram } from "react-icons/fa";
-import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
+// import { FaInstagram } from "react-icons/fa";
+// import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
 
 class home extends React.Component {
   constructor() {

@@ -3,7 +3,7 @@ import "../styles/navbarStyle.css";
 import { NavLink } from "react-router-dom";
 // import { FaInstagram } from "react-icons/fa";
 // import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
-import { GiDivergence, GiHamburgerMenu, GiCancel } from "react-icons/gi";
+import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
 
 function NavBar(props) {
   const [Clicked, setClicked] = useState(false);

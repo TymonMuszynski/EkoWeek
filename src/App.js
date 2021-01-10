@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import { Route, Router, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Konkurs from "./pages/Konkurs";

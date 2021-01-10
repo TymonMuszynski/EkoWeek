@@ -78,7 +78,7 @@ class Warsztaty extends Component {
     return (
       <react.Fragment>
         <div className="main">
-          <img src={WarsztatyUp} className="PhotoUp" />
+          <img src={WarsztatyUp} className="PhotoUp" alt="14" />
           <div className="BigText">
             <span>Zobacz jak mozesz poprawić środowisko</span>
           </div>
@@ -88,7 +88,7 @@ class Warsztaty extends Component {
             </div>
           </div>
           <Elements elements={this.state.elements} />
-          <img src={WarsztatyDown} className="PhotoDown" />
+          <img src={WarsztatyDown} className="PhotoDown" alt="15" />
         </div>
       </react.Fragment>
     );

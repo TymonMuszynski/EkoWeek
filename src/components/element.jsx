@@ -20,7 +20,7 @@ class Element extends Component {
             <span>{name}</span>
           </div>
           <div className="conteiner">
-            <img src={photo} className="photo" />
+            <img src={photo} className="photo" alt="16" />
             <span className="name">{nick}</span>
           </div>
         </div>
