@@ -94,7 +94,7 @@ class Warsztaty extends Component {
     return (
       <react.Fragment>
         <div className="main">
-          <img src={logoWhite} className="logoWhite" />
+          <img src={logoWhite} className="logoWhite" alt="21" />
           <img src={WarsztatyUp} className="PhotoUp" alt="14" />
           <div className="BigText">
             <span>Zobacz jak mozesz poprawić środowisko</span>
