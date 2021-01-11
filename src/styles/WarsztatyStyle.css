@@ -12,6 +12,12 @@ main {
   bottom: 0;
   padding-top: 180px;
 }
+.logoWhite {
+  position: absolute;
+  width: 20%;
+  top: 15px;
+  left: 20px;
+}
 .Conteiner {
   top: 40%;
   left: 35%;
@@ -40,7 +46,7 @@ main {
   color: white;
   text-align: center;
 }
-.smallText {
+.smallTextWarsztaty {
   width: 90%;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;

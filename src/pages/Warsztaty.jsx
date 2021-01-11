@@ -2,6 +2,7 @@ import react, { Component } from "react";
 import "../styles/WarsztatyStyle.css";
 import WarsztatyUp from "../assets/Warsztaty_up.svg";
 import WarsztatyDown from "../assets/Warsztaty_down.svg";
+import logoWhite from "../assets/logo_medium_white.png";
 import Elements from "../components/elements";
 import profile from "../assets/dupa.png";
 
@@ -93,6 +94,7 @@ class Warsztaty extends Component {
     return (
       <react.Fragment>
         <div className="main">
+          <img src={logoWhite} className="logoWhite" />
           <img src={WarsztatyUp} className="PhotoUp" alt="14" />
           <div className="BigText">
             <span>Zobacz jak mozesz poprawić środowisko</span>
@@ -118,7 +120,7 @@ class Warsztaty extends Component {
                 Wykłady
               </button>
             </div>
-            <div className="smallText">
+            <div className="smallTextWarsztaty">
               <span>
                 tekst tekst tekst tekst tekst tekst tekst tekst tekst teksttekst
                 tekst tekst tekst teksttekst tekst tekst tekst teksttekst tekst

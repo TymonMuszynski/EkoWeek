@@ -2,7 +2,12 @@
   height: auto;
   width: 100%;
 }
-
+.logoMedium {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 20%;
+}
 .mainPhoto {
   position: absolute;
   height: 100%;
@@ -10,35 +15,37 @@
 }
 
 .bigText {
-  font-size: 5vw;
-  color: #37ec38;
+  font-size: 4vw;
+  color: rgb(56, 56, 56);
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
-.mediumText {
-  font-size: 2.5vw;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 1vw;
-}
 .smallText {
   font-size: 1.3vw;
   font-family: "Montserrat", sans-serif;
   margin-left: 1vw;
-  word-spacing: 5px;
+  font-weight: medium;
+  color: rgb(75, 75, 75);
 }
 .mediumText {
   font-size: 1.5vw;
   font-family: "Montserrat", sans-serif;
   margin-left: 1vw;
-  font-weight: 200;
+  font-weight: medium;
+  color: rgb(75, 75, 75);
 }
 
 .mainText {
   position: absolute;
-  top: 27%;
+  height: 100%;
   left: 5%;
   display: flex;
   flex-direction: column;
+  width: 35%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .homeConteiner {
@@ -98,6 +105,13 @@
 }
 /* MOBILE VIEW */
 
+.logoMediumWhite {
+  width: 60%;
+  position: absolute;
+  right: 3px;
+  top: 2%;
+}
+
 .mobilePhoto {
   width: 100%;
   left: 0;
@@ -105,22 +119,24 @@
 }
 .mobilePhotoDown {
   position: absolute;
+  background: transparent;
   width: 100%;
   left: 0;
-  top: 80%;
+  bottom: 0;
 }
 .bigTextMobile {
-  font-size: 12vw;
-  color: #37ec38;
+  font-size: 10vw;
+  color: rgb(56, 56, 56);
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 .smallTextMobile {
   font-size: 4vw;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  color: rgb(112, 112, 112);
 }
 .mobileTextConteiner {
-  top: 15%;
+  margin-top: 8%;
   left: 8%;
   width: 100%;
   height: auto;
@@ -128,9 +144,10 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 .smallTextMobileConteiner {
-  padding-top: 10px;
+  padding-top: 30px;
   width: 80%;
 }
 .mediaConteiner {
@@ -148,4 +165,32 @@
 
 .icon:hover {
   color: #2a8147;
+}
+@media screen and (max-width: 950px) {
+  .btn {
+    cursor: pointer;
+    display: flex;
+    background-color: #37ec38;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+    border-radius: 4vh;
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .btn-contact {
+    display: flex;
+    text-align: center;
+    width: 40%;
+    cursor: pointer;
+    font-size: 4vw;
+    font-family: "Montserrat", sans-serif;
+    color: #37ec38;
+    font-weight: 600;
+    margin-left: 10%;
+  }
+  .btn-conteiner {
+    justify-content: space-between;
+  }
 }
