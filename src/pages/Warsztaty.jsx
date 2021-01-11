@@ -7,11 +7,13 @@ import profile from "../assets/dupa.png";
 
 class Warsztaty extends Component {
   state = {
+    videoState: "Warsztaty",
     elements: [
       {
         id: 1,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=AVS2YMSAC70",
+        kind: "Live",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#F3E636",
         name: "Drzewa są fajne",
@@ -19,7 +21,8 @@ class Warsztaty extends Component {
       {
         id: 2,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=Lt4Z5oOAeEY",
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#1EC51F",
         name: "Krzaki są fajne",
@@ -27,7 +30,8 @@ class Warsztaty extends Component {
       {
         id: 3,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=Lt4Z5oOAeEY",
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#36B0D8",
         name: "Kwiaty i krzaki są fajne",
@@ -35,7 +39,8 @@ class Warsztaty extends Component {
       {
         id: 4,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=Lt4Z5oOAeEY",
+        kind: "Wyklady",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#F1544E",
         name: "EKO EKO EKO EKO EKO",
@@ -43,7 +48,8 @@ class Warsztaty extends Component {
       {
         id: 5,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=Lt4Z5oOAeEY",
+        kind: "Wyklady",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#F1F0F2",
         name: "EKO EKO EKO EKO EKO",
@@ -51,7 +57,8 @@ class Warsztaty extends Component {
       {
         id: 6,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=Lt4Z5oOAeEY",
+        kind: "Live",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#201c22",
         name: "EKO EKO EKO EKO EKO",
@@ -59,7 +66,8 @@ class Warsztaty extends Component {
       {
         id: 7,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=Lt4Z5oOAeEY",
+        kind: "Live",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#6B7B83",
         name: "EKO EKO EKO EKO EKO",
@@ -67,12 +75,19 @@ class Warsztaty extends Component {
       {
         id: 8,
         photo: profile,
-        link: "https://www.youtube.com/watch?v=Lt4Z5oOAeEY",
+        kind: "Live",
+        link: "https://www.youtube.com/embed/po5STMUQO-c",
         nick: "Kaczor Donald",
         color: "#6C8D8D",
         name: "EKO EKO EKO EKO EKO",
       },
     ],
+  };
+
+  changeVideoState = (name) => {
+    let videoState = name;
+    this.setState({ videoState });
+    console.log(this.state);
   };
   render() {
     return (
@@ -83,11 +98,34 @@ class Warsztaty extends Component {
             <span>Zobacz jak mozesz poprawić środowisko</span>
           </div>
           <div className="Conteiner">
-            <div>
-              <span>coś</span>
+            <div className="buttonConteiner">
+              <button
+                className="button1"
+                onClick={() => this.changeVideoState("Warsztaty")}
+              >
+                Warsztaty
+              </button>
+              <button
+                className="button1"
+                onClick={() => this.changeVideoState("Live")}
+              >
+                Live
+              </button>
+              <button
+                className="button1"
+                onClick={() => this.changeVideoState("Wyklady")}
+              >
+                Wykłady
+              </button>
+            </div>
+            <div className="smallText">
+              <span>
+                tekst tekst tekst tekst tekst tekst tekst tekst tekst teksttekst
+                tekst tekst tekst teksttekst tekst tekst tekst teksttekst tekst
+              </span>
             </div>
           </div>
-          <Elements elements={this.state.elements} />
+          <Elements state={this.state} />
           <img src={WarsztatyDown} className="PhotoDown" alt="15" />
         </div>
       </react.Fragment>

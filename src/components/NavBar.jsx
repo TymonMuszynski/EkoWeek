@@ -11,27 +11,34 @@ function NavBar(props) {
     <nav className="NavBar">
       <ul className={Clicked ? "list active" : "list"}>
         <li>
-          <NavLink className="tag" to="/">
+          <NavLink className="tag" to="/" onClick={() => setClicked(!Clicked)}>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink className="tag" to="Warsztaty">
+          <NavLink
+            className="tag"
+            to="Warsztaty"
+            onClick={() => setClicked(!Clicked)}
+          >
             Warsztaty
           </NavLink>
         </li>
         <li>
-          <NavLink className="tag" to="Wyklady">
-            Wykłady
-          </NavLink>
-        </li>
-        <li>
-          <NavLink className="tag" to="Konkurs">
+          <NavLink
+            className="tag"
+            to="Konkurs"
+            onClick={() => setClicked(!Clicked)}
+          >
             Konkurs
           </NavLink>
         </li>
         <li>
-          <NavLink className="tag" to="Pytania">
+          <NavLink
+            className="tag"
+            to="Pytania"
+            onClick={() => setClicked(!Clicked)}
+          >
             Pytania
           </NavLink>
         </li>

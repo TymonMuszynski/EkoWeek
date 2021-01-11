@@ -10,6 +10,7 @@ class Element extends Component {
 
     return (
       <NavLink
+        style={{ textDecoration: "none" }}
         to={{
           pathname: "/video",
           state: { name: { link } },

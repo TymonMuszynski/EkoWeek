@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import Konkurs from "./pages/Konkurs";
 import Pytania from "./pages/Pytania";
 import Warsztaty from "./pages/Warsztaty";
-import Wyklady from "./pages/Wyklady";
 import Video from "./pages/Video";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route path="/Konkurs" component={Konkurs} />
           <Route path="/Pytania" component={Pytania} />
           <Route path="/Warsztaty" component={Warsztaty} />
-          <Route path="/Wyklady" component={Wyklady} />
           <Route path="/" component={Home} />
         </Switch>
       </div>

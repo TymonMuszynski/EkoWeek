@@ -1,23 +1,28 @@
 import React from "react";
-import "../styles/homeStyle.css";
+import "../styles/videoStyle.css";
 import { useLocation } from "react-router-dom";
+import WarsztatyUp from "../assets/Warsztaty_up.svg";
 
 function Video(props) {
   let location = useLocation();
   console.log(location);
+  let link = location.state.name.link;
 
   return (
-    <div className="mainConteiner">
-      <sapn>{location.state.name.link}</sapn>
+    <div className="mainVideo">
+      <img src={WarsztatyUp} className="PhotoUp" alt="18" />
+      {/* <div className="videoConteiner"> */}
       <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+        width="1232"
+        height="693"
+        src={link}
         frameBorder="0"
         allow="autoplay; encrypted-media"
         allowfullscreen
         title="video"
+        className="videoConteiner"
       ></iframe>
+      {/* </div> */}
     </div>
   );
 }

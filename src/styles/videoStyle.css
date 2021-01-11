@@ -1,0 +1,15 @@
+.mainVideo {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+.PhotoUp {
+  align-self: flex-start;
+  width: 100%;
+}
+.videoConteiner {
+  position: absolute;
+  align-self: center;
+}

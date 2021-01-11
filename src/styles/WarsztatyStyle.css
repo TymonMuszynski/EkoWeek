@@ -13,22 +13,25 @@ main {
   padding-top: 180px;
 }
 .Conteiner {
-  top: 45%;
+  top: 40%;
   left: 35%;
   width: 30%;
-  height: 26%;
-  border-radius: 20px;
-  border: 5px solid white;
+  height: 20%;
+  border-radius: 10px;
+  border: 2px solid white;
   background: transparent;
   display: flex;
   position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
 }
 .BigText {
   position: absolute;
   top: 20%;
-  left: 35%;
-  width: 30%;
-  font-size: 3rem;
+  left: 25%;
+  width: 50%;
+  font-size: 3.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   display: flex;
@@ -36,4 +39,52 @@ main {
   align-items: center;
   color: white;
   text-align: center;
+}
+.smallText {
+  width: 90%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.buttonConteiner {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.button1 {
+  border-bottom: 4px solid white;
+  border-top: unset;
+  border-left: unset;
+  border-right: unset;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+
+  background: transparent;
+  color: white;
+}
+.button1:hover {
+  color: #37ec36;
+  border: none;
+}
+
+@media screen and (max-width: 950px) {
+  .Conteiner {
+    background-image: linear-gradient(#36cd4a, #37af5b);
+    margin-top: 0;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    position: relative;
+    border: unset;
+    border-radius: 0;
+    z-index: 2;
+  }
+  .BigText {
+    display: none;
+  }
 }
