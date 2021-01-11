@@ -45,6 +45,8 @@ class home extends React.Component {
             </span>
             <div className="smallTextMobileConteiner">
               <span className="smallTextMobile">
+                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
+                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
                 Dzięki akcji EkoWeek dowiesz się, jakie zmiany możesz wprowadzić
                 nawet w codziennym życiu żeby świat stał się mniej
                 zanieczyszczony!
