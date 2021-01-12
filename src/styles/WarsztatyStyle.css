@@ -77,14 +77,14 @@ main {
   color: #37ec36;
   border: none;
 }
-.logoWhite {
-  width: 60%;
-  position: absolute;
-  left: 40%;
-  top: 2%;
-}
 
 @media screen and (max-width: 950px) {
+  .logoWhite {
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+  }
   .button1 {
     border-bottom: unset;
   }
