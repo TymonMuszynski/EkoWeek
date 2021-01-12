@@ -1,6 +1,7 @@
 import react, { Component } from "react";
 import "../styles/WarsztatyStyle.css";
 import WarsztatyUp from "../assets/Warsztaty_up.svg";
+import WarsztatyUpMobile from "../assets/Warsztaty_mobile_up.svg";
 import WarsztatyDown from "../assets/Warsztaty_down.svg";
 import logoWhite from "../assets/logo_medium_white.png";
 import Elements from "../components/elements";
@@ -8,6 +9,7 @@ import profile from "../assets/dupa.png";
 
 class Warsztaty extends Component {
   state = {
+    width: window.innerWidth,
     videoState: "Warsztaty",
     elements: [
       {
@@ -84,6 +86,16 @@ class Warsztaty extends Component {
       },
     ],
   };
+  componentWillMount() {
+    window.addEventListener("resize", this.handleWindowSizeChange);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleWindowSizeChange);
+  }
+
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  };
 
   changeVideoState = (name) => {
     let videoState = name;
@@ -91,11 +103,17 @@ class Warsztaty extends Component {
     console.log(this.state);
   };
   render() {
+    const { width } = this.state;
+    const isMobile = width <= 950;
     return (
       <react.Fragment>
         <div className="main">
           <img src={logoWhite} className="logoWhite" alt="21" />
-          <img src={WarsztatyUp} className="PhotoUp" alt="14" />
+          <img
+            src={isMobile ? WarsztatyUpMobile : WarsztatyUp}
+            className="PhotoUp"
+            alt="14"
+          />
           <div className="BigText">
             <span>Zobacz jak mozesz poprawić środowisko</span>
           </div>

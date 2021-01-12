@@ -48,8 +48,3 @@
   height: 5rem;
   border-radius: 50%;
 }
-@media screen and (max-width: 950px) {
-  .elements {
-    margin-top: 70%;
-  }
-}
