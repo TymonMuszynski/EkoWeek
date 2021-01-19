@@ -2,11 +2,6 @@ html {
   background: #fafbfc;
 }
 
-main {
-  height: auto;
-  width: 100%;
-}
-
 .PhotoDown {
   width: 100%;
   bottom: 0;

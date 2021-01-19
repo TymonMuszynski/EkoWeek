@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../styles/navbarStyle.css";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 // import { FaInstagram } from "react-icons/fa";
 // import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
 import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
@@ -26,22 +27,15 @@ function NavBar(props) {
           </NavLink>
         </li>
         <li>
-          <NavLink
+          <Link
             className="tag"
-            to="Konkurs"
+            to="section2"
+            spy={true}
+            smooth={true}
             onClick={() => setClicked(!Clicked)}
           >
             Konkurs
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            className="tag"
-            to="Pytania"
-            onClick={() => setClicked(!Clicked)}
-          >
-            Pytania
-          </NavLink>
+          </Link>
         </li>
       </ul>
       <div className="menuIcon" onClick={() => setClicked(!Clicked)}>
