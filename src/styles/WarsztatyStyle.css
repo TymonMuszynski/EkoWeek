@@ -13,26 +13,32 @@ html {
   top: 15px;
   left: 20px;
 }
+.cn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 60%;
+  height: 55%;
+  top: 15%;
+  left: 20%;
+}
 .Conteiner {
-  top: 40%;
-  left: 35%;
-  width: 30%;
-  height: 20%;
+  left: 30%;
+  width: 80%;
+  height: 45%;
   border-radius: 10px;
   border: 2px solid white;
   background: transparent;
   display: flex;
-  position: absolute;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-around;
 }
 .BigText {
-  position: absolute;
-  top: 20%;
-  left: 25%;
-  width: 50%;
-  font-size: 3.5rem;
+  width: 100%;
+  font-size: 4vw;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   display: flex;
@@ -45,7 +51,7 @@ html {
   width: 90%;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.3vw;
   color: white;
 }
 
@@ -60,8 +66,7 @@ html {
   border: unset;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 1.4rem;
-
+  font-size: 1.6rem;
   background: transparent;
   color: white;
 }
@@ -71,6 +76,10 @@ html {
 }
 
 @media screen and (max-width: 950px) {
+  .smallTextWarsztaty {
+    text-align: center;
+    font-size: 3.1vw;
+  }
   .logoWhite {
     width: 60%;
     position: absolute;
@@ -79,18 +88,26 @@ html {
   }
   .button1 {
     border-bottom: unset;
+    font-size: 5.3vw;
   }
   .Conteiner {
     width: 95%;
     left: 2.5%;
-    top: 48%;
-    height: 26%;
+    top: 50%;
+    height: 43%;
+    font-size: 10vw;
   }
   .BigText {
-    font-size: 10vw;
-    top: 22%;
+    font-size: 9vw;
+    top: 18%;
     width: 95%;
     left: 2.5%;
     text-align: center;
+  }
+  .cn {
+    top: 20%;
+    left: 0;
+    height: 55%;
+    width: 100%;
   }
 }

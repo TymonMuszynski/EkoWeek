@@ -13,8 +13,6 @@ function Video(props) {
       <img src={WarsztatyUp} className="PhotoUp" alt="18" />
       {/* <div className="videoConteiner"> */}
       <iframe
-        width="1232"
-        height="693"
         src={link}
         frameBorder="0"
         allow="autoplay; encrypted-media"

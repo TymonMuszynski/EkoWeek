@@ -10,6 +10,27 @@
   width: 100%;
 }
 .videoConteiner {
+  width: 1232px;
+  height: 693px;
   position: absolute;
   align-self: center;
+}
+@media screen and (max-width: 1350px) {
+  .videoConteiner {
+    width: 862.4px;
+    height: 485.1px;
+  }
+}
+
+@media screen and (max-width: 865px) {
+  .videoConteiner {
+    width: 616px;
+    height: 346.5px;
+  }
+}
+@media screen and (max-width: 616px) {
+  .videoConteiner {
+    width: 369.3px;
+    height: 207.9px;
+  }
 }

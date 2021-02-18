@@ -114,35 +114,43 @@ class Warsztaty extends Component {
             className="PhotoUp"
             alt="14"
           />
-          <div className="BigText">
-            <span>Zobacz jak mozesz poprawić środowisko</span>
-          </div>
-          <div className="Conteiner">
-            <div className="buttonConteiner">
-              <button
-                className="button1"
-                onClick={() => this.changeVideoState("Warsztaty")}
-              >
-                Warsztaty
-              </button>
-              <button
-                className="button1"
-                onClick={() => this.changeVideoState("Live")}
-              >
-                Live
-              </button>
-              <button
-                className="button1"
-                onClick={() => this.changeVideoState("Wyklady")}
-              >
-                Wykłady
-              </button>
-            </div>
-            <div className="smallTextWarsztaty">
+          <div className="cn">
+            <div className="BigText">
               <span>
-                tekst tekst tekst tekst tekst tekst tekst tekst tekst teksttekst
-                tekst tekst tekst teksttekst tekst tekst tekst teksttekst tekst
+                Warsztaty, Live, Wykłady… czyli łatwodostępna pigułka z wiedzą!
               </span>
+            </div>
+            <div className="Conteiner">
+              <div className="buttonConteiner">
+                <button
+                  className="button1"
+                  onClick={() => this.changeVideoState("Warsztaty")}
+                >
+                  Warsztaty
+                </button>
+                <button
+                  className="button1"
+                  onClick={() => this.changeVideoState("Live")}
+                >
+                  Live
+                </button>
+                <button
+                  className="button1"
+                  onClick={() => this.changeVideoState("Wyklady")}
+                >
+                  Wykłady
+                </button>
+              </div>
+
+              <div className="smallTextWarsztaty">
+                <span>
+                  W związku z naszym projektem, chcemy aby informacje były
+                  przekazywane w jak najbardziej przystępny sposób oraz żeby
+                  tematyka trafiała w Wasze potrzeby i zainteresowania. W ciągu
+                  całego tygodnia odbędzie się ich multum, żeby faktycznie można
+                  byłoby cały tydzień podsumować jako pigułka z wiedzą…
+                </span>
+              </div>
             </div>
           </div>
           <Elements state={this.state} />
