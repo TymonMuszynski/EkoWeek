@@ -5,7 +5,6 @@ import "../styles/homeStyle.css";
 import mainPhoto from "../assets/home_page.svg";
 import mobilePhotoUp from "../assets/home_page_mobile_up.svg";
 import home_page_contest from "../assets/home_page_contest.svg";
-import mobilePhotoDown from "../assets/home_page_mobile_down.svg";
 import logoMedium from "../assets/logo_medium.png";
 import logoMediumWhite from "../assets/logo_medium_white.png";
 
