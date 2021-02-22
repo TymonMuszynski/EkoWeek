@@ -1,7 +1,8 @@
 import React from "react";
 import "../styles/navbarStyle.css";
 import { NavLink } from "react-router-dom";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { HashLink as Link } from "react-router-hash-link";
 import disableScroll from "disable-scroll";
 // import { FaInstagram } from "react-icons/fa";
 // import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
@@ -68,9 +69,8 @@ class NavBar extends React.Component {
           <li>
             <Link
               className="tag"
-              to="section2"
-              spy={true}
-              smooth={true}
+              smooth
+              to="home#section2"
               onClick={() => this.setClicked(!this.state.Clicked)}
             >
               Konkurs

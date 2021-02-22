@@ -134,8 +134,6 @@ class home extends React.Component {
               </div>
             </div>
           </div>
-          <div className="mobilePhotoDown"></div>
-          <img src={mobilePhotoDown} alt="2" style={{ marginTop: "420%" }} />
         </div>
       );
     } else {
@@ -205,7 +203,7 @@ class home extends React.Component {
               alt="26"
             ></img>
             <div className="secondMainText">
-              <span className="bigText">Chwytliwy tekst tekst tekst tekst</span>
+              <span className="bigText">Konkurs</span>
               <div style={{ width: "35vw", paddingTop: "20px" }}>
                 <span className="smallText" style={{ textAlign: "center" }}>
                   Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?

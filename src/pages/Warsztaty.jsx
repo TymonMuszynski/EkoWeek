@@ -105,6 +105,7 @@ class Warsztaty extends Component {
   render() {
     const { width } = this.state;
     const isMobile = width <= 950;
+
     return (
       <react.Fragment>
         <div className="main">
@@ -143,13 +144,42 @@ class Warsztaty extends Component {
               </div>
 
               <div className="smallTextWarsztaty">
-                <span>
+                {/* <span>
                   W związku z naszym projektem, chcemy aby informacje były
                   przekazywane w jak najbardziej przystępny sposób oraz żeby
                   tematyka trafiała w Wasze potrzeby i zainteresowania. W ciągu
                   całego tygodnia odbędzie się ich multum, żeby faktycznie można
                   byłoby cały tydzień podsumować jako pigułka z wiedzą…
-                </span>
+                </span> */}
+                {this.state.videoState === "Wyklady" ? (
+                  <span>
+                    W związku z naszym projektem, chcemy aby informacje były
+                    przekazywane w jak najbardziej przystępny sposób oraz żeby
+                    tematyka trafiała w Wasze potrzeby i zainteresowania. W
+                    ciągu całego tygodnia odbędzie się ich multum, żeby
+                    faktycznie można byłoby cały tydzień podsumować jako pigułka
+                    z wiedzą…
+                  </span>
+                ) : this.state.videoState === "Warsztaty" ? (
+                  <span>
+                    Warsztaty mamy zamiar przeprowadzić w sposób bardzo podobny
+                    do wykładów, aczkolwiek w tym przypadku będziemy zachęcać do
+                    wykonywania! Polegać będą one głównie na pokazywaniu jak na
+                    przykład stare ubrania przerobić na nowe, wyglądające jak
+                    prosto ze sklepu… Również będzie możliwość obejrzenia ich na
+                    Youtubie po jakimś czasie.
+                  </span>
+                ) : (
+                  <span>
+                    Live’y będą odbywać się na naszym profilu na Facebooku,
+                    gdzie każdy będzie mógł bezpośrednio uczestniczyć w
+                    dyskusji. Wykładowcy prowadzący live w krótszym spotkaniu
+                    niż wykład poruszą tematy skupiając się bardziej na
+                    szczegółach poszczególnych kwestii. Aby wiadomości ze
+                    spotkań na żywo docierały do każdego chętnego zostaną za
+                    każdym razem wstawione na Youtube.
+                  </span>
+                )}
               </div>
             </div>
           </div>

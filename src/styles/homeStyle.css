@@ -29,6 +29,7 @@ img {
   color: rgb(56, 56, 56);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .smallText {
@@ -195,13 +196,6 @@ img {
   width: 100%;
   left: 0;
   top: 0;
-}
-.mobilePhotoDown {
-  position: absolute;
-  background: transparent;
-  width: 100%;
-  left: 0;
-  bottom: -30%;
 }
 .bigTextMobile {
   font-size: 10vw;

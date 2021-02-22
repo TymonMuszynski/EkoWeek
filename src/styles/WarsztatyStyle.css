@@ -27,7 +27,7 @@ html {
 .Conteiner {
   left: 30%;
   width: 80%;
-  height: 45%;
+  height: 47%;
   border-radius: 10px;
   border: 2px solid white;
   background: transparent;
@@ -63,15 +63,18 @@ html {
   align-content: center;
 }
 .button1 {
-  border: unset;
+  border: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
   background: transparent;
   color: white;
+  cursor: pointer;
 }
 .button1:hover {
-  color: #37ec36;
+  color: #36ad5e;
+}
+.button1:active {
   border: none;
 }
 
