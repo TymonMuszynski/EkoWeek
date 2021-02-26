@@ -29,7 +29,6 @@ img {
   color: rgb(56, 56, 56);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  text-align: center;
 }
 
 .smallText {
@@ -53,12 +52,13 @@ img {
   left: 5%;
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 40%;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 .secondMainText {
+  top: 40%;
   position: absolute;
   height: 100%;
   left: 62%;
@@ -308,7 +308,7 @@ img {
   }
   .contestConeiner {
     flex-wrap: wrap;
-    height: 120%;
+    height: 160%;
     width: 100%;
     top: 200%;
     position: absolute;

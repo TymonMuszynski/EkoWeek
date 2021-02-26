@@ -39,9 +39,7 @@ class home extends React.Component {
           <img src={logoMediumWhite} className="logoMediumWhite" alt="0" />
           <img src={mobilePhotoUp} className="mobilePhoto" alt="1" />
           <div className="mobileTextConteiner">
-            <span className="bigTextMobile">
-              Chwytliwy tekst tekst tekst tekst
-            </span>
+            <span className="bigTextMobile">Początek twojego eko myślenia</span>
             <div className="smallTextMobileConteiner">
               <span className="smallTextMobile">
                 Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
@@ -100,36 +98,50 @@ class home extends React.Component {
               alt="25"
             ></img>
             <div className="secondMainText">
-              <span className="bigTextMobile">
-                Chwytliwy tekst tekst tekst tekst
-              </span>
+              <span className="bigTextMobile">Konkurs</span>
               <div style={{ width: "90%", paddingTop: "20px" }}>
                 <span
                   className="smallTextMobile"
                   style={{ textAlign: "center" }}
                 >
-                  Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                  Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
-                  Dzięki akcji EkoWeek dowiesz się, jakie zmiany możesz
-                  wprowadzić nawet w codziennym życiu żeby świat stał się mniej
-                  zanieczyszczony.
+                  Konkurs, który przygotowaliśmy jest szczególnie ważny,
+                  ponieważ bezpośrednio angażuje Was, a to Wy stanowicie
+                  najistotniejszą część naszego projektu. Im więcej osób weźmie
+                  udział tym lepiej dla planety… Dlaczego zapytacie. Już
+                  spieszymy z odpowiedzią:
                 </span>
-              </div>
-              <div
-                className="btn-conteiner"
-                style={{
-                  justifyContent: "center",
-                  width: "100%",
-                }}
-              >
-                <div
-                  className="btn"
-                  style={{
-                    width: "50%",
-                  }}
+                <p></p>
+                <span
+                  className="smallTextMobile"
+                  style={{ textAlign: "center" }}
                 >
-                  Dowiedz się więcej
-                </div>
+                  • Każdy z nas ma w domu „miliony” odpadów, a wiadomo, że im
+                  więcej śmieci tym gorzej dla środowiska. Wobec tego, oprócz do
+                  standardowego recyklingu, chcielibyśmy zachęcić Was do
+                  tworzenia nowych rzeczy… wyprodukowanych właśnie z odpadów!
+                  Zadaniem, z którym trzeba się zmierzyć to zbudowanie rzeźby,
+                  jak już pewnie się domyślacie – ze śmieci.
+                </span>
+                <p></p>
+                <span
+                  className="smallTextMobile"
+                  style={{ textAlign: "center" }}
+                >
+                  • Prosimy o nadesłanie zdjęć Waszych cudownych wytworów wraz z
+                  imieniem i nazwiskiem oraz wraz ze zgodą na ich publikowanie
+                  na naszej stronie oraz na fanpage’ach na adres e-mail:
+                  ekoweek.kontakt@gmail.com do 21 marca 2021 roku, czyli do Dnia
+                  Ziemi
+                </span>
+                <p></p>
+                <span
+                  className="smallTextMobile"
+                  style={{ textAlign: "center" }}
+                >
+                  • Publikacja wyników na stronie i fanpage’ach przypada na
+                  ostatni dzień eventu. • Dla zwycięzców przewidziane są nagrody
+                  pieniężne.
+                </span>
               </div>
             </div>
           </div>
@@ -142,7 +154,7 @@ class home extends React.Component {
             <img src={logoMedium} className="logoMedium" alt="0" />
             <img src={mainPhoto} className="mainPhoto" alt="3" />
             <div className="mainText">
-              <span className="bigText">Chwytliwy tekst tekst tekst tekst</span>
+              <span className="bigText">Początek twojego eko myślenia</span>
               <div style={{ width: "35vw", paddingTop: "20px" }}>
                 <span className="smallText">
                   Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
@@ -205,30 +217,35 @@ class home extends React.Component {
               <span className="bigText">Konkurs</span>
               <div style={{ width: "35vw", paddingTop: "20px" }}>
                 <span className="smallText" style={{ textAlign: "center" }}>
-                  Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                  Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
-                  Dzięki akcji EkoWeek dowiesz się, jakie zmiany możesz
-                  wprowadzić nawet w codziennym życiu żeby świat stał się mniej
-                  zanieczyszczony.
+                  Konkurs, który przygotowaliśmy jest szczególnie ważny,
+                  ponieważ bezpośrednio angażuje Was, a to Wy stanowicie
+                  najistotniejszą część naszego projektu. Im więcej osób weźmie
+                  udział tym lepiej dla planety… Dlaczego zapytacie. Już
+                  spieszymy z odpowiedzią:
                 </span>
-              </div>
-              <div
-                className="btn-conteiner"
-                style={{
-                  justifyContent: "center",
-                  width: "100%",
-                }}
-              >
-                <div
-                  className="btn"
-                  style={{
-                    width: "50%",
-                  }}
-                >
-                  <Link to="section1" spy={true} smooth={true}>
-                    Dowiedz się więcej
-                  </Link>
-                </div>
+                <p></p>
+                <span className="smallText" style={{ textAlign: "center" }}>
+                  • Każdy z nas ma w domu „miliony” odpadów, a wiadomo, że im
+                  więcej śmieci tym gorzej dla środowiska. Wobec tego, oprócz do
+                  standardowego recyklingu, chcielibyśmy zachęcić Was do
+                  tworzenia nowych rzeczy… wyprodukowanych właśnie z odpadów!
+                  Zadaniem, z którym trzeba się zmierzyć to zbudowanie rzeźby,
+                  jak już pewnie się domyślacie – ze śmieci.
+                </span>
+                <p></p>
+                <span className="smallText" style={{ textAlign: "center" }}>
+                  • Prosimy o nadesłanie zdjęć Waszych cudownych wytworów wraz z
+                  imieniem i nazwiskiem oraz wraz ze zgodą na ich publikowanie
+                  na naszej stronie oraz na fanpage’ach na adres e-mail:
+                  ekoweek.kontakt@gmail.com do 21 marca 2021 roku, czyli do Dnia
+                  Ziemi
+                </span>
+                <p></p>
+                <span className="smallText" style={{ textAlign: "center" }}>
+                  • Publikacja wyników na stronie i fanpage’ach przypada na
+                  ostatni dzień eventu. • Dla zwycięzców przewidziane są nagrody
+                  pieniężne.
+                </span>
               </div>
             </div>
           </div>
