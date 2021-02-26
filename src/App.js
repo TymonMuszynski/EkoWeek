@@ -1,17 +1,17 @@
 import "./App.css";
-import React, { useEffect } from "react";
+import React from "react";
 import NavBar from "./components/NavBar";
 import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Warsztaty from "./pages/Warsztaty";
 import Video from "./pages/Video";
-import ReactGa from "react-ga";
+// import ReactGa from "react-ga";
 
 function App() {
-  useEffect(() => {
-    ReactGa.initialize("G-8MWE4MM8FP");
-    ReactGa.pageview(window.location.pathname + window.location);
-  }, []);
+  // useEffect(() => {
+  //   ReactGa.initialize("G-G-J3ZS0WNQ7Q");
+  //   ReactGa.pageview(window.location.pathname + window.location);
+  // }, []);
 
   return (
     <>
