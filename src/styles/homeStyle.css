@@ -29,6 +29,7 @@ img {
   color: rgb(56, 56, 56);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .smallText {
@@ -37,13 +38,16 @@ img {
   margin-left: 1vw;
   font-weight: medium;
   color: rgb(75, 75, 75);
+  text-align: center;
 }
+
 .mediumText {
   font-size: 1.5vw;
   font-family: "Montserrat", sans-serif;
   margin-left: 1vw;
   font-weight: medium;
   color: rgb(75, 75, 75);
+  text-align: center;
 }
 
 .mainText {
@@ -86,13 +90,16 @@ img {
   position: absolute;
   margin-top: 40px;
 }
+.btn-link {
+  width: 50%;
+}
 .btn {
   cursor: pointer;
   display: flex;
   background-color: #37ec38;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   height: 7vh;
   border-radius: 4vh;
   font-size: 1.4vw;
@@ -101,28 +108,14 @@ img {
   font-weight: 600;
 }
 .btn:hover {
-  background-color: #37ec38;
+  background-color: #29552b;
 }
 
-.btn-contact {
-  display: flex;
-  align-items: center;
-  justify-items: flex-start;
-  width: 10%;
-  cursor: pointer;
-  font-size: 1.4vw;
-  font-family: "Montserrat", sans-serif;
-  color: #37ec38;
-  font-weight: 600;
-}
-.btn-contact:hover {
-  color: #214722;
-}
 .btn-conteiner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   margin-top: 5vh;
 }
 .resonConteiner {
@@ -202,11 +195,13 @@ img {
   color: rgb(56, 56, 56);
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 .smallTextMobile {
   font-size: 4vw;
   font-family: "Montserrat", sans-serif;
   color: rgb(112, 112, 112);
+  text-align: center;
 }
 .mobileTextConteiner {
   margin-top: 15%;
@@ -251,20 +246,6 @@ img {
     border-radius: 4vh;
     font-size: 4vw;
     font-weight: 600;
-  }
-  .btn-contact {
-    display: flex;
-    text-align: center;
-    width: 40%;
-    cursor: pointer;
-    font-size: 4vw;
-    font-family: "Montserrat", sans-serif;
-    color: #37ec38;
-    font-weight: 600;
-    margin-left: 10%;
-  }
-  .btn-conteiner {
-    justify-content: space-between;
   }
   .resonConteiner {
     display: flex;

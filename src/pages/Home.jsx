@@ -50,44 +50,38 @@ class home extends React.Component {
               </span>
             </div>
             <div className="btn-conteiner">
-              <div className="btn">
-                <Link to="section1" spy={true} smooth={true}>
-                  Dowiedz się więcej
-                </Link>
-              </div>
-              <div className="btn-contact">Kontakt</div>
+              <Link to="section1" spy={true} smooth={true}>
+                <div className="btn">Dowiedz się więcej</div>
+              </Link>
             </div>
           </div>
           <div id="section1" className="bigTextConteiner">
-            <span className="bigTextMobile">
-              Chwytliwy tekst tekst tekst tekst
-            </span>
+            <span className="bigTextMobile">Cele naszego projektu</span>
           </div>
           <div className="resonConteiner">
             <div className="verticalLine"></div>
             <div className="horizontalLine"></div>
             <div className="reson">
               <span className="smallTextMobile">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Zachęcanie Was do prowadzenia bardziej ekologicznego trybu
+                życia.
               </span>
             </div>
             <div className="reson">
               <span className="smallTextMobile">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Pomaganie osobom niedożywionym i zarazem zapobieganie
+                marnotrawstwu jedzenia restauracyjnego.
               </span>
             </div>
             <div className="reson">
               <span className="smallTextMobile">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Zapewnianie rozrywki wraz z przeplecioną przez nią wiedzą...
+                nauka przez zabawę
               </span>
             </div>
             <div className="reson">
               <span className="smallTextMobile">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Podkreślanie wagi współczesnych problemów środowiskowych.
               </span>
             </div>
           </div>
@@ -155,7 +149,13 @@ class home extends React.Component {
             <img src={mainPhoto} className="mainPhoto" alt="3" />
             <div className="mainText">
               <span className="bigText">Początek twojego eko myślenia</span>
-              <div style={{ width: "35vw", paddingTop: "20px" }}>
+              <div
+                style={{
+                  width: "100%",
+                  paddingTop: "20px",
+                  textAlign: "center",
+                }}
+              >
                 <span className="smallText">
                   Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
                   Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
@@ -166,44 +166,43 @@ class home extends React.Component {
               </div>
 
               <div className="btn-conteiner">
-                <div className="btn">
-                  <Link to="section1" spy={true} smooth={true}>
-                    Dowiedz się więcej
-                  </Link>
-                </div>
-
-                <div className="btn-contact">Kontakt</div>
+                <Link
+                  className="btn-link"
+                  to="section1"
+                  spy={true}
+                  smooth={true}
+                >
+                  <div className="btn">Dowiedz się więcej </div>
+                </Link>
               </div>
             </div>
           </div>
           <div id="section1" className="bigTextConteiner">
-            <span className="bigText">Chwytliwy tekst tekst tekst tekst </span>
+            <span className="bigText">Cele naszego projektu</span>
           </div>
           <div className="resonConteiner">
             <div className="verticalLine"></div>
             <div className="horizontalLine"></div>
             <div className="reson">
               <span className="smallText">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Zachęcanie Was do prowadzenia ekologicznego trybu życia.
               </span>
             </div>
             <div className="reson">
               <span className="smallText">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Pomaganie osobom niedożywionym i zapobieganie marnotrawstwu
+                jedzenia.
               </span>
             </div>
             <div className="reson">
               <span className="smallText">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Zapewnianie rozrywki wraz z przeplecioną przez nią wiedzą...
+                nauka przez zabawę
               </span>
             </div>
             <div className="reson">
               <span className="smallText">
-                Pragniesz dbać o środowisko, ale wydaje ci się to uciążliwe?
-                Jeśli tak, to ten projekt stworzony jest idealnie dla ciebie.
+                Podkreślanie wagi współczesnych problemów środowiskowych.
               </span>
             </div>
           </div>
@@ -243,8 +242,11 @@ class home extends React.Component {
                 <p></p>
                 <span className="smallText" style={{ textAlign: "center" }}>
                   • Publikacja wyników na stronie i fanpage’ach przypada na
-                  ostatni dzień eventu. • Dla zwycięzców przewidziane są nagrody
-                  pieniężne.
+                  ostatni dzień eventu.
+                </span>
+                <p></p>
+                <span className="smallText" style={{ textAlign: "center" }}>
+                  • Dla zwycięzców przewidziane są nagrody pieniężne.
                 </span>
               </div>
             </div>
