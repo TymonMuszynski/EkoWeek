@@ -5,14 +5,8 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Warsztaty from "./pages/Warsztaty";
 import Video from "./pages/Video";
-// import ReactGa from "react-ga";
 
 function App() {
-  // useEffect(() => {
-  //   ReactGa.initialize("G-G-J3ZS0WNQ7Q");
-  //   ReactGa.pageview(window.location.pathname + window.location);
-  // }, []);
-
   return (
     <>
       <NavBar></NavBar>
