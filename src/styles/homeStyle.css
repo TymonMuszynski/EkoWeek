@@ -40,6 +40,13 @@ img {
   color: rgb(75, 75, 75);
   text-align: center;
 }
+.smallText-reson {
+  font-size: 1.7vw;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1vw;
+  font-weight: medium;
+  color: rgb(75, 75, 75);
+}
 
 .mediumText {
   font-size: 1.5vw;
@@ -133,6 +140,10 @@ img {
 .reson {
   width: 45%;
   height: 40%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 .verticalLine {
   position: absolute;

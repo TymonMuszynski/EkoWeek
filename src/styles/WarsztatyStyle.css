@@ -96,8 +96,8 @@ html {
   .Conteiner {
     width: 95%;
     left: 2.5%;
-    top: 50%;
-    height: 43%;
+    top: 100%;
+    height: 50%;
     font-size: 10vw;
   }
   .BigText {

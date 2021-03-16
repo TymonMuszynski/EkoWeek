@@ -184,24 +184,24 @@ class home extends React.Component {
             <div className="verticalLine"></div>
             <div className="horizontalLine"></div>
             <div className="reson">
-              <span className="smallText">
+              <span className="smallText-reson">
                 Zachęcanie Was do prowadzenia ekologicznego trybu życia.
               </span>
             </div>
             <div className="reson">
-              <span className="smallText">
+              <span className="smallText-reson">
                 Pomaganie osobom niedożywionym i zapobieganie marnotrawstwu
                 jedzenia.
               </span>
             </div>
             <div className="reson">
-              <span className="smallText">
+              <span className="smallText-reson">
                 Zapewnianie rozrywki wraz z przeplecioną przez nią wiedzą...
                 nauka przez zabawę
               </span>
             </div>
             <div className="reson">
-              <span className="smallText">
+              <span className="smallText-reson">
                 Podkreślanie wagi współczesnych problemów środowiskowych.
               </span>
             </div>
