@@ -316,6 +316,10 @@ img {
   }
 
   @media screen and (max-width: 650px) {
+    .smallTextMobile {
+      font-size: 4vw;
+    }
+
     .btn {
       cursor: pointer;
       display: flex;
