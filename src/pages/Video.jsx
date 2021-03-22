@@ -11,7 +11,6 @@ function Video(props) {
   return (
     <div className="mainVideo">
       <img src={WarsztatyUp} className="PhotoUp" alt="18" />
-      {/* <div className="videoConteiner"> */}
       <iframe
         src={link}
         frameBorder="0"
@@ -20,7 +19,6 @@ function Video(props) {
         title="video"
         className="videoConteiner"
       ></iframe>
-      {/* </div> */}
     </div>
   );
 }

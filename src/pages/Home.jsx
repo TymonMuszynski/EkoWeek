@@ -55,6 +55,7 @@ class home extends React.Component {
               </Link>
             </div>
           </div>
+
           <div id="section1" className="bigTextConteiner">
             <span className="bigTextMobile">Cele naszego projektu</span>
           </div>
@@ -85,6 +86,7 @@ class home extends React.Component {
               </span>
             </div>
           </div>
+
           <div id="section2" className="contestConeiner">
             <img
               src={home_page_contest}
