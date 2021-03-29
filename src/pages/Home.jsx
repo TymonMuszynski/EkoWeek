@@ -115,8 +115,10 @@ class home extends React.Component {
                   więcej śmieci tym gorzej dla środowiska. Wobec tego, oprócz do
                   standardowego recyklingu, chcielibyśmy zachęcić Was do
                   tworzenia nowych rzeczy… wyprodukowanych właśnie z odpadów!
-                  Zadaniem, z którym trzeba się zmierzyć to zbudowanie rzeźby,
-                  jak już pewnie się domyślacie – ze śmieci.
+                  Zadaniem, z którym trzeba się zmierzyć to stworzyć coś nowego
+                  i niepowtarzalnego z rzeczy, których już nie używamy. Mogą to
+                  być przeróbki ubrań, różne projekty DIY z wykorzystaniem
+                  starych przedmiotów.
                 </span>
                 <p></p>
                 <span
@@ -125,18 +127,9 @@ class home extends React.Component {
                 >
                   • Prosimy o nadesłanie zdjęć Waszych cudownych wytworów wraz z
                   imieniem i nazwiskiem oraz wraz ze zgodą na ich publikowanie
-                  na naszej stronie oraz na fanpage’ach na adres e-mail:
-                  ekoweek.kontakt@gmail.com do 21 marca 2021 roku, czyli do Dnia
-                  Ziemi
-                </span>
-                <p></p>
-                <span
-                  className="smallTextMobile"
-                  style={{ textAlign: "center" }}
-                >
-                  • Publikacja wyników na stronie i fanpage’ach przypada na
-                  ostatni dzień eventu. • Dla zwycięzców przewidziane są nagrody
-                  pieniężne.
+                  na naszej stronie oraz na fanpage’ach. Prace można przesyłać
+                  poprzez &nbsp;
+                  <a href="https://forms.gle/45WD3t5rDgndSUAr6">FORMULARZ </a>
                 </span>
               </div>
             </div>
@@ -230,21 +223,18 @@ class home extends React.Component {
                   więcej śmieci tym gorzej dla środowiska. Wobec tego, oprócz do
                   standardowego recyklingu, chcielibyśmy zachęcić Was do
                   tworzenia nowych rzeczy… wyprodukowanych właśnie z odpadów!
-                  Zadaniem, z którym trzeba się zmierzyć to zbudowanie rzeźby,
-                  jak już pewnie się domyślacie – ze śmieci.
+                  Zadaniem, z którym trzeba się zmierzyć to stworzyć coś nowego
+                  i niepowtarzalnego z rzeczy, których już nie używamy. Mogą to
+                  być przeróbki ubrań, różne projekty DIY z wykorzystaniem
+                  starych przedmiotów.
                 </span>
                 <p></p>
                 <span className="smallText" style={{ textAlign: "center" }}>
                   • Prosimy o nadesłanie zdjęć Waszych cudownych wytworów wraz z
                   imieniem i nazwiskiem oraz wraz ze zgodą na ich publikowanie
-                  na naszej stronie oraz na fanpage’ach na adres e-mail:
-                  ekoweek.kontakt@gmail.com do 21 marca 2021 roku, czyli do Dnia
-                  Ziemi
-                </span>
-                <p></p>
-                <span className="smallText" style={{ textAlign: "center" }}>
-                  • Publikacja wyników na stronie i fanpage’ach przypada na
-                  ostatni dzień eventu.
+                  na naszej stronie oraz na fanpage’ach. Prace można przesyłać
+                  poprzez &nbsp;
+                  <a href="https://forms.gle/45WD3t5rDgndSUAr6">FORMULARZ </a>
                 </span>
                 <p></p>
                 <span className="smallText" style={{ textAlign: "center" }}>
