@@ -125,11 +125,12 @@ class home extends React.Component {
                   className="smallTextMobile"
                   style={{ textAlign: "center" }}
                 >
-                  • Prosimy o nadesłanie zdjęć Waszych cudownych wytworów wraz z
-                  imieniem i nazwiskiem oraz wraz ze zgodą na ich publikowanie
-                  na naszej stronie oraz na fanpage’ach. Prace można przesyłać
-                  poprzez &nbsp;
+                  • Prosimy o nadesłanie do zdjęć Waszych cudownych wytworów
+                  wraz z imieniem i nazwiskiem oraz wraz ze zgodą na ich
+                  publikowanie na naszej stronie oraz na fanpage’ach. Prace
+                  można przesyłać poprzez &nbsp;
                   <a href="https://forms.gle/45WD3t5rDgndSUAr6">FORMULARZ </a>
+                  do 1 maja 2021r.
                 </span>
               </div>
             </div>
@@ -235,6 +236,7 @@ class home extends React.Component {
                   na naszej stronie oraz na fanpage’ach. Prace można przesyłać
                   poprzez &nbsp;
                   <a href="https://forms.gle/45WD3t5rDgndSUAr6">FORMULARZ </a>
+                  do 1 maja 2021r.
                 </span>
                 <p></p>
                 <span className="smallText" style={{ textAlign: "center" }}>
