@@ -7,7 +7,7 @@ import disableScroll from "disable-scroll";
 // import { FaInstagram } from "react-icons/fa";
 // import { AiFillFacebook, AiFillYoutube } from "react-icons/ai";
 import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
-import logoMini from "../assets/logo_mini.svg";
+import logoMini from "../assets/logo_medium.png";
 
 class NavBar extends React.Component {
   constructor() {
