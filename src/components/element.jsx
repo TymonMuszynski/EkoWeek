@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../styles/elementStyle.css";
-import { NavLink } from "react-router-dom";
 
 class Element extends Component {
   render() {
@@ -9,13 +8,7 @@ class Element extends Component {
     const colorCss = { backgroundColor: color };
 
     return (
-      <NavLink
-        style={{ textDecoration: "none" }}
-        to={{
-          pathname: "/video",
-          state: { name: { link } },
-        }}
-      >
+      <a className="linkToFilm" href={link}>
         <div className="element" style={colorCss}>
           <div className="BigTextElement">
             <span>{name}</span>
@@ -25,7 +18,7 @@ class Element extends Component {
             <span className="name">{nick}</span>
           </div>
         </div>
-      </NavLink>
+      </a>
     );
   }
 }

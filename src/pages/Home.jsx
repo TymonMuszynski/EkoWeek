@@ -5,7 +5,7 @@ import "../styles/homeStyle.css";
 import mainPhoto from "../assets/home_page.svg";
 import mobilePhotoUp from "../assets/home_page_mobile_up.svg";
 import home_page_contest from "../assets/home_page_contest.svg";
-import logoMedium from "../assets/logo_medium.png";
+import logoMedium from "../assets/logo_mini.svg";
 import logoMediumWhite from "../assets/logo_medium_white.png";
 
 class home extends React.Component {

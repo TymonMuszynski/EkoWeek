@@ -5,7 +5,37 @@ import WarsztatyUpMobile from "../assets/Warsztaty_mobile_up.svg";
 import WarsztatyDown from "../assets/Warsztaty_down.svg";
 import logoWhite from "../assets/logo_medium_white.png";
 import Elements from "../components/elements";
-import profile from "../assets/logo_mini.svg";
+
+import photo_1 from "../assets/profilePictures/1.jpg";
+import photo_2 from "../assets/profilePictures/2.jpg";
+import photo_3 from "../assets/profilePictures/3.jpg";
+import photo_4 from "../assets/profilePictures/4.jpg";
+import photo_5 from "../assets/profilePictures/5.jpg";
+// import photo_6 from "../assets/profilePictures/6.jpg";
+import photo_7 from "../assets/profilePictures/7.jpg";
+import photo_8 from "../assets/profilePictures/8.jpg";
+import photo_9 from "../assets/profilePictures/9.jpg";
+import photo_10 from "../assets/profilePictures/10.jpg";
+// import photo_11 from "../assets/profilePictures/11.jpg";
+// import photo_12 from "../assets/profilePictures/12.jpg";
+// import photo_13 from "../assets/profilePictures/13.jpg";
+// import photo_14 from "../assets/profilePictures/14.jpg";
+// import photo_15 from "../assets/profilePictures/15.jpg";
+// import photo_16 from "../assets/profilePictures/16.jpg";
+// import photo_17 from "../assets/profilePictures/17.jpg";
+// import photo_18 from "../assets/profilePictures/18.jpg";
+// import photo_19 from "../assets/profilePictures/19.jpg";
+// import photo_20 from "../assets/profilePictures/20.jpg";
+import photo_21 from "../assets/profilePictures/21.jpg";
+// import photo_22 from "../assets/profilePictures/22.jpg";
+// import photo_23 from "../assets/profilePictures/23.jpg";
+// import photo_24 from "../assets/profilePictures/24.jpg";
+// import photo_25 from "../assets/profilePictures/25.jpg";
+// import photo_26 from "../assets/profilePictures/26.jpg";
+// import photo_27 from "../assets/profilePictures/27.jpg";
+// import photo_28 from "../assets/profilePictures/28.jpg";
+// import photo_29 from "../assets/profilePictures/29.jpg";
+// import photo_30 from "../assets/profilePictures/30.jpg";
 
 class Warsztaty extends Component {
   state = {
@@ -14,30 +44,93 @@ class Warsztaty extends Component {
     elements: [
       {
         id: 1,
-        photo: profile,
-        kind: "Live",
-        link: "",
-        nick: "EkoWeek",
-        color: "#37CF4B",
-        name: "Live wkrótce dostępne",
-      },
-      {
-        id: 1,
-        photo: profile,
-        kind: "Wyklady",
-        link: "",
-        nick: "EkoWeek",
-        color: "#37CF4B",
-        name: "Wykłady wkrótce dostępne",
-      },
-      {
-        id: 1,
-        photo: profile,
+        photo: photo_4,
         kind: "Warsztaty",
-        link: "",
-        nick: "EkoWeek",
+        link: "https://www.youtube.com/watch?v=WS-Jwb4X4p4",
+        nick: "Naturalna",
+        color: "#FDAD19",
+        name: "Wegańską Sałatka",
+      },
+      {
+        id: 1,
+        photo: photo_2,
+        kind: "Warsztaty",
+        link: "https://youtu.be/hg7J3Z8jQzo",
+        nick: "Mleko&Mute",
         color: "#37CF4B",
-        name: "Warsztaty wkrótce dostępne",
+        name: "wegańskie ciasteczka",
+      },
+      {
+        id: 1,
+        photo: photo_5,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=4V1o5w1pNhQ&t=4s",
+        nick: "Coś Słodkiego",
+        color: "#08A0CE",
+        name: "Ciasto Banoffee",
+      },
+      {
+        id: 1,
+        photo: photo_9,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=ypY1OHm2jdA&t=2s",
+        nick: "Blejzu Custom",
+        color: "#19FDD5",
+        name: "Custom Butów",
+      },
+      {
+        id: 1,
+        photo: photo_10,
+        kind: "Wyklady",
+        link: "https://www.youtube.com/watch?v=mO3BWH-7gWQ",
+        nick: "Ubrania do Oddania",
+        color: "#FD1919",
+        name: "Ubrania do Oddania",
+      },
+      {
+        id: 1,
+        photo: photo_3,
+        kind: "Wyklady",
+        link: "https://www.youtube.com/watch?v=7R8jFs_5jZE",
+        nick: "Filip Wąchała",
+        color: "#2519FD",
+        name: "boks a dieta wegańska",
+      },
+      {
+        id: 1,
+        photo: photo_8,
+        kind: "Live",
+        link: "https://fb.watch/4_Eod2kx7U/",
+        nick: "Otwarte Klatki",
+        color: "#CF19FD",
+        name: "Przemysł Futrzarski",
+      },
+      {
+        id: 1,
+        photo: photo_21,
+        kind: "Live",
+        link: "https://fb.watch/4_ExJDzCRk/",
+        nick: "TakeCup",
+        color: "#FDBC6F",
+        name: "TakeCup",
+      },
+      {
+        id: 1,
+        photo: photo_1,
+        kind: "Live",
+        link: "https://fb.watch/4_ELW2gd9V/",
+        nick: "Katarzyna Rećko",
+        color: "#6FB0FD",
+        name: "Dietetyk o dietach",
+      },
+      {
+        id: 1,
+        photo: photo_7,
+        kind: "Live",
+        link: "https://fb.watch/4_ELW2gd9V/",
+        nick: "Kuba Korczak",
+        color: "#79FD6F",
+        name: "Gotwanie zero waste",
       },
     ],
   };
