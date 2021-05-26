@@ -21,21 +21,23 @@ import photo_10 from "../assets/profilePictures/10.jpg";
 // import photo_13 from "../assets/profilePictures/13.jpg";
 // import photo_14 from "../assets/profilePictures/14.jpg";
 // import photo_15 from "../assets/profilePictures/15.jpg";
-// import photo_16 from "../assets/profilePictures/16.jpg";
-// import photo_17 from "../assets/profilePictures/17.jpg";
-// import photo_18 from "../assets/profilePictures/18.jpg";
+import photo_16 from "../assets/profilePictures/16.jpg";
+import photo_17 from "../assets/profilePictures/17.jpg";
+import photo_18 from "../assets/profilePictures/18.jpg";
 // import photo_19 from "../assets/profilePictures/19.jpg";
-// import photo_20 from "../assets/profilePictures/20.jpg";
+import photo_20 from "../assets/profilePictures/20.jpg";
 import photo_21 from "../assets/profilePictures/21.jpg";
 // import photo_22 from "../assets/profilePictures/22.jpg";
-// import photo_23 from "../assets/profilePictures/23.jpg";
-// import photo_24 from "../assets/profilePictures/24.jpg";
+import photo_23 from "../assets/profilePictures/23.jpg";
+import photo_24 from "../assets/profilePictures/24.jpg";
 // import photo_25 from "../assets/profilePictures/25.jpg";
-// import photo_26 from "../assets/profilePictures/26.jpg";
-// import photo_27 from "../assets/profilePictures/27.jpg";
+import photo_26 from "../assets/profilePictures/26.jpg";
+import photo_27 from "../assets/profilePictures/27.jpg";
 // import photo_28 from "../assets/profilePictures/28.jpg";
-// import photo_29 from "../assets/profilePictures/29.jpg";
+import photo_29 from "../assets/profilePictures/29.jpg";
 // import photo_30 from "../assets/profilePictures/30.jpg";
+import photo_31 from "../assets/profilePictures/31.jpg";
+import logo_mini from "../assets/logo_mini.svg";
 
 class Warsztaty extends Component {
   state = {
@@ -131,6 +133,114 @@ class Warsztaty extends Component {
         nick: "Kuba Korczak",
         color: "#79FD6F",
         name: "Gotwanie zero waste",
+      },
+      {
+        id: 1,
+        photo: photo_23,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=oz80kYk0Zp4",
+        nick: "Dominika Lasota ",
+        color: "#6FB0FD",
+        name: "Walka o klimat",
+      },
+      {
+        id: 1,
+        photo: photo_20,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=otPpLOxJnX4",
+        nick: "Eko-Logicznie",
+        color: "#19FDD5",
+        name: "Eko-ściema",
+      },
+      {
+        id: 1,
+        photo: photo_26,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=unya6wZb-Gg",
+        nick: "Wastewater",
+        color: "#79FD6F",
+        name: "Podwodny świat",
+      },
+      {
+        id: 1,
+        photo: photo_31,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=p6jV1Pcu5lw",
+        nick: "WWF",
+        color: "#FD1919",
+        name: "Fundacja z Pandą",
+      },
+      {
+        id: 1,
+        photo: photo_29,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=jVlUqqdMuWc",
+        nick: "Who Will Save The Planet",
+        color: "#FDBC6F",
+        name: "Who Will Save The Planet",
+      },
+      {
+        id: 1,
+        photo: photo_24,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=4QLZFkfDzpM",
+        nick: "Krzysztofem Rzymanem",
+        color: "#19FDD5",
+        name: " kawiarnia less-waste",
+      },
+      {
+        id: 1,
+        photo: photo_17,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=daM0JYstE4Y",
+        nick: "Too Good To Go",
+        color: "#79FD6F",
+        name: "Too Good To Go",
+      },
+      {
+        id: 1,
+        photo: photo_27,
+        kind: "Live",
+        link: "https://fb.watch/5h1zulOABz/",
+        nick: "Green peace",
+        color: "#FD1919",
+        name: "Green peace",
+      },
+      {
+        id: 1,
+        photo: logo_mini,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=L2W6wsNFKNY",
+        nick: "Eko Week",
+        color: "#FD1919",
+        name: "baby yodę na szydełku",
+      },
+      {
+        id: 1,
+        photo: photo_16,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=9_qsz4BvxzQ",
+        nick: "Kor Ag",
+        color: "#FDBC6F",
+        name: "upcycling mebli",
+      },
+      {
+        id: 1,
+        photo: logo_mini,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=yvZZt9PsMAQ",
+        nick: "Eko Week",
+        color: "#19FDD5",
+        name: "uszyj scrunchie",
+      },
+      {
+        id: 1,
+        photo: photo_18,
+        kind: "Wyklady",
+        link: "https://www.youtube.com/watch?v=MYTN2EgzDSI",
+        nick: "Frenezja",
+        color: "#79FD6F",
+        name: "biżuteria z żywicy",
       },
     ],
   };
