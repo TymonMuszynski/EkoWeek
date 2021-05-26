@@ -15,6 +15,7 @@ class Element extends Component {
           </div>
           <div className="conteiner">
             <img src={photo} className="photo" alt="16" />
+
             <span className="name">{nick}</span>
           </div>
         </div>

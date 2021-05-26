@@ -11,31 +11,30 @@ import photo_2 from "../assets/profilePictures/2.jpg";
 import photo_3 from "../assets/profilePictures/3.jpg";
 import photo_4 from "../assets/profilePictures/4.jpg";
 import photo_5 from "../assets/profilePictures/5.jpg";
-// import photo_6 from "../assets/profilePictures/6.jpg";
+import photo_6 from "../assets/profilePictures/6.jpg";
 import photo_7 from "../assets/profilePictures/7.jpg";
 import photo_8 from "../assets/profilePictures/8.jpg";
 import photo_9 from "../assets/profilePictures/9.jpg";
 import photo_10 from "../assets/profilePictures/10.jpg";
-// import photo_11 from "../assets/profilePictures/11.jpg";
-// import photo_12 from "../assets/profilePictures/12.jpg";
-// import photo_13 from "../assets/profilePictures/13.jpg";
-// import photo_14 from "../assets/profilePictures/14.jpg";
-// import photo_15 from "../assets/profilePictures/15.jpg";
+import photo_11 from "../assets/profilePictures/11.jpg";
+import photo_12 from "../assets/profilePictures/12.jpg";
+import photo_13 from "../assets/profilePictures/13.jpg";
+import photo_14 from "../assets/profilePictures/14.jpg";
+import photo_15 from "../assets/profilePictures/15.jpg";
 import photo_16 from "../assets/profilePictures/16.jpg";
 import photo_17 from "../assets/profilePictures/17.jpg";
 import photo_18 from "../assets/profilePictures/18.jpg";
-// import photo_19 from "../assets/profilePictures/19.jpg";
+import photo_19 from "../assets/profilePictures/19.jpg";
 import photo_20 from "../assets/profilePictures/20.jpg";
 import photo_21 from "../assets/profilePictures/21.jpg";
-// import photo_22 from "../assets/profilePictures/22.jpg";
+import photo_22 from "../assets/profilePictures/22.jpg";
 import photo_23 from "../assets/profilePictures/23.jpg";
 import photo_24 from "../assets/profilePictures/24.jpg";
-// import photo_25 from "../assets/profilePictures/25.jpg";
+import photo_25 from "../assets/profilePictures/25.jpg";
 import photo_26 from "../assets/profilePictures/26.jpg";
 import photo_27 from "../assets/profilePictures/27.jpg";
-// import photo_28 from "../assets/profilePictures/28.jpg";
+import photo_28 from "../assets/profilePictures/28.jpg";
 import photo_29 from "../assets/profilePictures/29.jpg";
-// import photo_30 from "../assets/profilePictures/30.jpg";
 import photo_31 from "../assets/profilePictures/31.jpg";
 import logo_mini from "../assets/logo_mini.svg";
 
@@ -241,6 +240,125 @@ class Warsztaty extends Component {
         nick: "Frenezja",
         color: "#79FD6F",
         name: "biżuteria z żywicy",
+      },
+      {
+        id: 1,
+        photo: photo_6,
+        kind: "Live",
+        link:
+          "https://www.instagram.com/tv/CN5MJ4YJ23N/?utm_source=ig_web_copy_link",
+        nick: "Ola Miernik",
+        color: "#79FD6F",
+        name: "Fast Fashion",
+      },
+      {
+        id: 1,
+        photo: photo_11,
+        kind: "Wyklady",
+        link: "https://www.youtube.com/watch?v=jz3NU7yQHQI",
+        nick: "WSG",
+        color: "#FDAD19",
+        name: "O pszczołach",
+      },
+      {
+        id: 1,
+        photo: photo_12,
+        kind: "Wyklady",
+        link: "https://www.youtube.com/watch?v=e62zjjrjih4",
+        nick: "Klub zielarski",
+        color: "#FDAD19",
+        name: "Majowe Ziółka",
+      },
+      {
+        id: 1,
+        photo: photo_13,
+        kind: "Wyklady",
+        link: "https://www.youtube.com/watch?v=xx29_8QITSI",
+        nick: "Małgorzata Kulczyńska",
+        color: "#79FD6F",
+        name: "O wilkach",
+      },
+      {
+        id: 1,
+        photo: photo_14,
+        kind: "Wyklady",
+        link: "https://www.youtube.com/watch?v=oFOZcbJgH_M",
+        nick: "Wybieram kundelka",
+        color: "#19FDD5",
+        name: "O schronisku",
+      },
+      {
+        id: 1,
+        photo: photo_15,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=1mqy60wNe1w",
+        nick: "Klaudia Smak",
+        color: "#79FD6F",
+        name: "Peeling kawowy",
+      },
+      {
+        id: 1,
+        photo: photo_15,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=Q8f-wR4DLtY",
+        nick: "Klaudia Smak",
+        color: "#79AD9F",
+        name: "własny dezo dorant",
+      },
+      {
+        id: 1,
+        photo: photo_15,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=CiSzbSvCmnw",
+        nick: "Klaudia Smak",
+        color: "#C9F1AF",
+        name: "O    Olejkach",
+      },
+      {
+        id: 1,
+        photo: photo_15,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=qO74sZZwOWg",
+        nick: "Klaudia Smak",
+        color: "#FF71AC",
+        name: "Płyn do czyszcenia",
+      },
+      {
+        id: 1,
+        photo: photo_19,
+        kind: "Warsztaty",
+        link: "https://www.youtube.com/watch?v=ek_Ms-Hu0YM",
+        nick: "Chwalmy Chwasty",
+        color: "#AA71AC",
+        name: "Jakie rośliny mijamy po drodze?",
+      },
+      {
+        id: 1,
+        photo: photo_22,
+        kind: "Live",
+        link:
+          "https://www.instagram.com/tv/COGH8iJpnrN/?utm_source=ig_web_copy_link",
+        nick: "Pokolenie zero waste",
+        color: "#AA71AC",
+        name: "Zero Waste",
+      },
+      {
+        id: 1,
+        photo: photo_28,
+        kind: "Live",
+        link: "https://fb.watch/5Klpm4ZTfq/",
+        nick: "Katarzyna Sadowska",
+        color: "#CAF1AC",
+        name: "Współczesna Fitoterapia",
+      },
+      {
+        id: 1,
+        photo: photo_25,
+        kind: "Live",
+        link: "https://www.youtube.com/watch?v=wKMbKplRifM",
+        nick: "Planet for generations",
+        color: "#AA71AC",
+        name: "świece sojowe",
       },
     ],
   };
